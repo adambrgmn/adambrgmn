@@ -9,7 +9,7 @@
 
 ## Summary
 
-- **Previous radio- and magazine journalist turned self-taught fullstack JavaScript developer, after 15 years of coding
+- **Previous radio- and magazine journalist turned self-taught fullstack JavaScript developer, after 20 years of coding
   as a hobby.**
 - Interested in, and has experience of, accessibility, design systems and the "back of the front end" part of front-end
   development.
@@ -20,18 +20,18 @@
 
 ### Languages
 
-- JavaScript – node, browser and edge runtimes
+- JavaScript (preferably TypeScript) – node, browser and edge runtimes
 - HTML – with strong focus on semantics
 - CSS – plain and modern
 - PHP – simple and reliable
 
 ### Tools
 
-- Rendering with React (vanilla, NextJS, Remix et.al.)
-- Data fetching with GraphQL (apollo) and REST (react-query)
-- Testing with Jest and Cypress
-- Styling with vanilla CSS, CSS-in-JS (styled-components, emotion) and Tailwind
-- Backend with Lambda and edge functions
+- Rendering with React (vanilla, NextJS, Remix et.al.).
+- Data fetching with GraphQL (apollo) and REST (react-query).
+- Testing with Jest and Cypress.
+- Styling with vanilla CSS, CSS-in-JS (styled-components, emotion) and Tailwind.
+- Backend with node on AWS Lambda and edge functions.
 
 ### Design tools
 

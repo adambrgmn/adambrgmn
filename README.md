@@ -1,3 +1,3 @@
 # Adam Bergman 👋
 
-- [cv](cv.md)
+- [cv](https://cv.fransvilhelm.com)
