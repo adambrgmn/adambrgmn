@@ -1,0 +1,182 @@
+:root {
+  --black: #333333;
+  --blue: #0000ff;
+}
+
+html {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+
+@media (min-width: 440px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  color: var(--black);
+}
+
+main {
+  padding: 20px;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 300px) {
+  main {
+    padding: 36px;
+  }
+}
+
+/* MARGINS */
+
+main > * + * {
+  margin-top: 1rem;
+}
+
+h2 {
+  margin-top: 3rem;
+}
+
+/* DEFAULTS */
+
+a {
+  color: var(--black);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--blue);
+}
+
+h1 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: center;
+  border-bottom: 1px solid var(--black);
+  padding: 0 0 1rem 0;
+}
+
+h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: left;
+  border-bottom: 1px solid var(--black);
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 550;
+}
+
+small + h3 {
+  margin-top: 0;
+}
+
+h3 + * {
+  margin-top: 0.5rem;
+}
+
+ul {
+  --size: 8px;
+  --gap: 4px;
+  --translate: -1px;
+  list-style: none;
+  padding-left: calc(var(--size) + var(--gap));
+}
+
+@media (min-width: 440px) {
+  ul {
+    --translate: -2px;
+  }
+}
+
+ul li::before {
+  content: '';
+  display: inline-block;
+  width: var(--size);
+  height: var(--size);
+  background-image: url(icons/corner-down-right.svg);
+  background-size: cover;
+  margin-left: calc((var(--size) + var(--gap)) * -1);
+  margin-right: var(--gap);
+  transform: translateY(var(--translate));
+}
+
+li + li {
+  margin-top: 0.5rem;
+}
+
+strong {
+  font-weight: 600;
+}
+
+/* SPECIAL */
+
+/* Personal info header */
+ul#user-content-personal-info-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  font-size: 1rem;
+  column-gap: 1rem;
+  line-height: 2;
+  padding-left: 0;
+  max-width: 440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul#user-content-personal-info-list > li + li {
+  margin-top: 0;
+}
+
+ul#user-content-personal-info-list li::before {
+  --size: 12px;
+  --translate: 2px;
+  margin: 0;
+}
+
+ul#user-content-personal-info-list strong {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+li#user-content-info-location::before {
+  background-image: url(icons/map-pin.svg);
+}
+
+li#user-content-info-phone::before {
+  background-image: url(icons/smartphone.svg);
+}
+
+li#user-content-info-email::before {
+  background-image: url(icons/mail.svg);
+}
+
+li#user-content-info-github::before {
+  background-image: url(icons/github.svg);
+}
+
+/* Experience time/title */
+p[id^='user-content-time'] {
+  font-size: 0.8rem;
+  margin-top: 2rem;
+}
+
+p[id^='user-content-time'] + h3 {
+  margin-top: 0;
+}
