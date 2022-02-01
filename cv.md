@@ -2,10 +2,10 @@
 
 ## Personal info
 
-**Location:** Gothenburg, Sweden  
-**Phone:** +4673-339 72 30  
-**E-mail:** adam@fransvilhelm.com  
-**GitHub:** [@adambrgmn](https://github.com/adambrgmn)
+- <strong>Location:</strong> Gothenburg, Sweden
+- <strong>Phone:</strong> +4673-339 72 30
+- <strong>E-mail:</strong> <a href="mailto:adam@fransvilhelm.com">adam@fransvilhelm.com</a>
+- <strong>GitHub:</strong> <a href="https://github.com/adambrgmn">@adambrgmn</a>
 
 ---
 
