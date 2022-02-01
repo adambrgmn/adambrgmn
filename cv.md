@@ -2,17 +2,19 @@
 
 ## Personal info
 
-**Location:** Gothenburg, Sweden<br />
-**Phone:** +4673-339 72 30<br />
-**E-mail:** adam@fransvilhelm.com<br />
+**Location:** Gothenburg, Sweden  
+**Phone:** +4673-339 72 30  
+**E-mail:** adam@fransvilhelm.com  
 **GitHub:** [@adambrgmn](https://github.com/adambrgmn)
 
 ---
 
 ## Summary
 
-- Previous radio- and magazine journalist turned self-taught fullstack JavaScript developer, after 15 years of coding as a hobby.
-- Interested in, and has experience of, accessibility, design systems and the "back of the front end" part of front-end development.
+- Previous radio- and magazine journalist turned self-taught fullstack JavaScript developer, after 15 years of coding as
+  a hobby.
+- Interested in, and has experience of, accessibility, design systems and the "back of the front end" part of front-end
+  development.
 - Value great developer experience and love improving it.
 - Open source contributor.
 
@@ -63,7 +65,9 @@ Front-end developer at Velory starting as Maker II. Currently Maker III+.
 
 _2014-09-01 - 2019-09-04_
 
-Mainly hired as a reporter for Swedish shipping magazine Sjöfartstidningen. Ended up taking responsibility for rewriting the whole WordPress backed site in order to improve performance and accessibility and ease development of future features.
+Mainly hired as a reporter for Swedish shipping magazine Sjöfartstidningen. Ended up taking responsibility for rewriting
+the whole WordPress backed site in order to improve performance and accessibility and ease development of future
+features.
 
 - Took initiative and responsibility of rewriting most of the WordPress backend for www.sjofartstidningen.se.
 - Wrote both quick news articles and longer form stories for printed magazine and web.

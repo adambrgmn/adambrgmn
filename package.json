@@ -1,0 +1,32 @@
+{
+  "name": "adambrgmn",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier . --write",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adambrgmn/adambrgmn.git"
+  },
+  "author": "Adam Bergman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adambrgmn/adambrgmn/issues"
+  },
+  "homepage": "https://github.com/adambrgmn/adambrgmn#readme",
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.2",
+    "prettier": "^2.5.1"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "proseWrap": "always"
+  },
+  "lint-staged": {
+    "*.{js,ts,css,md}": "prettier --write"
+  }
+}
