@@ -1,5 +1,3 @@
-![Profile](./assets/profile.png)
-
 # Adam Bergman
 
 ## Personal info
