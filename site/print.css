@@ -1,0 +1,49 @@
+html {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* COLUMNS */
+
+main {
+  columns: 2;
+  column-gap: 5rem;
+  max-width: 90%;
+}
+
+main > * {
+  break-inside: avoid;
+}
+
+h1,
+ul#user-content-personal-info-list {
+  column-span: all;
+}
+
+ul#user-content-personal-info-list {
+  max-width: 10cm;
+  margin-bottom: 2rem;
+}
+
+h2:first-of-type {
+  margin-top: 0;
+}
+
+/* LISTS */
+
+ul {
+  list-style: disc;
+  padding-left: 1rem;
+}
+
+ul#user-content-personal-info-list {
+  list-style: none;
+}
+
+ul li::before {
+  display: none;
+}

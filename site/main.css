@@ -145,14 +145,16 @@ ul#user-content-personal-info-list li::before {
   margin: 0;
 }
 
-ul#user-content-personal-info-list strong {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
+@media not print {
+  ul#user-content-personal-info-list strong {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
 }
 
 li#user-content-info-location::before {
